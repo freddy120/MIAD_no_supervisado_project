@@ -14,3 +14,6 @@ Using stock historical data, train a supervised learning algorithm with any comb
 
 <br>
 
+
+## License
+MIT License. See LICENSE for details.
