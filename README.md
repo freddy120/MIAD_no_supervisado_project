@@ -1,4 +1,4 @@
-# Detección e identificación de “puntos calientes” de dengue en Colombia: una aproximación desde el Aprendizaje no Supervisado 
+# Detección e identificación de "puntos calientes" de dengue en Colombia: una aproximación desde el Aprendizaje no Supervisado 
 
 ![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)
 [![Build Status](https://travis-ci.org/anfederico/clairvoyant.svg?branch=master)](https://travis-ci.org/freddy120/MIAD_no_supervisado_project)
