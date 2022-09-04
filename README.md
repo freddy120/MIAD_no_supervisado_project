@@ -62,6 +62,13 @@ dengue_df = pd.read_csv("../data/dengue_data_all_municipalities.csv")
   * Temperatura mensual para cada municipio en Colombia. ***TEMPERATURE_jan_07, …, TEMPERATURE_dec_18***
   * Precipitaciones mensuales para cada municipio en Colombia. ***PRECIPITATION_jan_07, …, PRECIPITATION_dec_18***
 
+
+Casos en Medellin a lo largo del tiempo, desde 2007 a 2019
+
+
+![](https://github.com/freddy120/MIAD_no_supervisado_project/blob/main/images/medellin_casos.png)
+
+
 ## Fuentes de datos
 * Sistema de Vigilancia en Salud Pública (SIVIGILA) del Insituto Nacional de Salud (INS). Por solicitud se puede acceder a las bases de datos de los casos semanales de dengue por semana epidemiológica desde el 2007. (http://portalsivigila.ins.gov.co/)
 * Departamento Administrativo Nacional de Estadística (DANE). Cuenta con bases de datos abiertos sobre la población desde el año 2007, con datos como la edad, género, raza, nivel educativo, ocupación, información sobre el hogar, información geográfica como viviendas y hospitales por Km2. (https://www.dane.gov.co/index.php/en/52-espanol/noticias/noticias/4325-bases-de-datos-anonimizadas-disponibles-en-la-web)
