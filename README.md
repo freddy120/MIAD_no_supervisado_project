@@ -28,7 +28,17 @@ Según  la  Organización  Panamericana  de  la  Salud,  los  casos  de  dengue 
 * Comunidades de ciencia de datos. Dado el impacto social en la salud pública de la infección por dengue, existen varias organizaciones que han dispuesto datasets para competencias. (https://www.kaggle.com/datasets/davidrestrepo/dengue, https://www.kaggle.com/datasets/davidrestrepo/stratification-of-dengue-in-cauca-colombia)
 * DrivenData (https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/page/80/)
 
-
+## Referencias:
+* Instituto Nacional de Salud. Protocolo de Vigilancia de Dengue [Internet]. INS 2022. [citado el 20 de agosto de 2022. Disponible en: https://www.ins.gov.co/buscadoreventos/Lineamientos/Pro_Dengue.pdf 
+* Instituto Nacional de Salud. Informe de Evento Dengue [Internet]. INS 2022. Citado el 20 de agosto de 2022. Disponible en: https://www.ins.gov.co/buscadoreventos/Informesdeevento/DENGUE%20PE%20VII%202022.pdf 
+* World Health Organization. Dengue and severe dengue [Internet]. WHO 2022. Citado el 04 de septimebre de 2022. Disponible en: https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue#:~:text=The%20number%20of%20dengue%20cases,affecting%20mostly%20younger%20age%20group. 
+* Organización Panamericana de la Salud. Dengue [Internet]. OPS. 2020. Citado el 20 de  agosto de 2022. Disponible en: https://www.paho.org/es/temas/dengue 
+* Thomas SJ, Rothman AL. Dengue virus infection: Epidemiology. In: UpToDate, Shefner JM (Ed), UpToDate, Waltham, MA. (Accessed on September 04, 2022.) 
+Bhatt S, Gething PW, Brady OJ, et al. The global distribution and burden of dengue. Nature. 2013;496(7446):504-507. doi:10.1038/nature12060 
+*Sanna M, Hsieh YH. Ascertaining the impact of public rapid transit system on spread of dengue in urban settings. Sci Total Environ. 2017;598:1151-1159. doi:10.1016/j.scitotenv.2017.04.050 
+* G. M. Nandana, S. Mala and A. Rawat, "Hotspot Detection of Dengue Fever Outbreaks Using DBSCAN Algorithm," 2019 9th International Conference on Cloud Computing, Data Science & Engineering (Confluence), 2019, pp. 158-161, doi: 10.1109/CONFLUENCE.2019.8776916. 
+* Hoyos W, Aguilar J, Toro M. Dengue models based on machine learning techniques: A systematic literature review. Artif Intell Med. 2021;119:102157. doi:10.1016/j.artmed.2021.102157 
+* Delmelle E, Hagenlocher M, Kienberger S, Casas I. A spatial model of socioeconomic and environmental determinants of dengue fever in Cali, Colombia. Acta Trop. 2016;164:169-176. doi:10.1016/j.actatropica.2016.08.028 
 
 
 ## Equipo
