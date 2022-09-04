@@ -13,6 +13,12 @@ En este repositorio, desarrollaremos un proyecto de aprendizaje no supervisado e
 ¿En qué zonas de Colombia se deberían concentrar las campañas de concientización de prevención y control contra el dengue?  
 Según  la  Organización  Panamericana  de  la  Salud,  los  casos  de  dengue  en  las Américas han incrementado en las últimas cuatro décadas, pasando de 1,5 millones en  la  década  de  1980  a  16,2  millones  en  la  década  de  2010.  A  julio  de  2022,  en Colombia  se  han  presentado  34017  casos  dentro  de  los  cuales  el  52,4%  han presentado signos de alarma o graves. Responder esta pregunta permitiría prevenir y controlar los brotes de dengue al identificar características de alto riesgo. Al ser un problema de salud pública, es de especial interés para entidades públicas y entes gubernamentales, a quienes les permitiría dirigir recursos hacia la capacitación y concientización de la población para la prevención y control del dengue de manera eficiente.
 
+Este proyecto tiene como objetivo encontrar en qué zonas de Colombia se deberían concentrar las campañas de concientización de prevención y control contra el dengue haciendo uso de métodos de aprendizaje no supervisado. De esta manera, se aplicará un análisis de clústeres basado en densidad con el cual se podrán encontrar clústeres de forma arbitraria para lograr estratificar municipios según el riesgo de tasa de incidencia de dengue. 
+Los resultados de este proyecto pretenden ser de utilidad para entidades públicas y gubernamentales, al permitirles dirigir recursos hacia la capacitación y concientización de la población para la prevención y control del dengue eficientemente en aquellas zonas de mayor riesgo en la proliferación del dengue. 
+<br>
+<br>
+**Palabras clave**: Dengue, Epidemia, Aprendizaje no Supervisado, Clústeres.   
+<br>
 <p align="center"><img width=50% src="https://github.com/freddy120/MIAD_no_supervisado_project/blob/8fa383734dc556386f8c8eb5efa1b20c4098b277/images/mosquitodengue.jpg"></p>
 <br>
 
