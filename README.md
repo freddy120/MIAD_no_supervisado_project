@@ -33,6 +33,8 @@ Según  la  Organización  Panamericana  de  la  Salud,  los  casos  de  dengue 
 * Jorge Oswaldo Suárez Rodríguez (w.romerob@uniandes.edu.co)
 * Freddy Rodrigo Mendoza Ticona (r.mendozat@uniandes.edu.co)
 
+Feel free to contact us for any doubt.\
+Enjoy :smile:!!
 
 ## License
 MIT License. See LICENSE for details.
