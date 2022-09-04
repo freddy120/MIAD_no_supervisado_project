@@ -16,7 +16,7 @@ Según  la  Organización  Panamericana  de  la  Salud,  los  casos  de  dengue 
 <p align="center"><img width=50% src="https://github.com/freddy120/MIAD_no_supervisado_project/blob/8fa383734dc556386f8c8eb5efa1b20c4098b277/images/mosquitodengue.jpg"></p>
 <br>
 
-## Archivos de interes:
+## Archivos de interés:
 * [ Jupyter Notebook](https://github.com/freddy120/MIAD_no_supervisado_project/blob/main/notebook/Final_Project.ipynb)
 * [ Dataset Dengue en Municipalidades Colombia](https://github.com/freddy120/MIAD_no_supervisado_project/blob/main/data/dengue_data_all_municipalities.csv)
 * [ Documento del trabajo realizado](https://github.com/freddy120/MIAD_no_supervisado_project/blob/main/data/dengue_data_all_municipalities.csv)
