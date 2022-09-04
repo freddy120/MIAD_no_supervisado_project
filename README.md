@@ -27,6 +27,14 @@ Los resultados de este proyecto pretenden ser de utilidad para entidades públic
 * [ Dataset Dengue en Municipalidades Colombia](https://github.com/freddy120/MIAD_no_supervisado_project/blob/main/data/dengue_data_all_municipalities.csv)
 * [ Documento del trabajo realizado](https://github.com/freddy120/MIAD_no_supervisado_project/blob/main/data/dengue_data_all_municipalities.csv)
 
+
+## Exploración de los datos:
+
+Lectura de los datos
+```python
+dengue_df = pd.read_csv("../data/dengue_data_all_municipalities.csv")
+```
+
 ## Fuentes de datos
 * Sistema de Vigilancia en Salud Pública (SIVIGILA) del Insituto Nacional de Salud (INS). Por solicitud se puede acceder a las bases de datos de los casos semanales de dengue por semana epidemiológica desde el 2007. (http://portalsivigila.ins.gov.co/)
 * Departamento Administrativo Nacional de Estadística (DANE). Cuenta con bases de datos abiertos sobre la población desde el año 2007, con datos como la edad, género, raza, nivel educativo, ocupación, información sobre el hogar, información geográfica como viviendas y hospitales por Km2. (https://www.dane.gov.co/index.php/en/52-espanol/noticias/noticias/4325-bases-de-datos-anonimizadas-disponibles-en-la-web)
