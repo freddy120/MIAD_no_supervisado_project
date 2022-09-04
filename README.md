@@ -25,7 +25,7 @@ Los resultados de este proyecto pretenden ser de utilidad para entidades públic
 ## Archivos de interés:
 * [ Jupyter Notebook](https://github.com/freddy120/MIAD_no_supervisado_project/blob/main/notebook/Final_Project.ipynb)
 * [ Dataset Dengue en Municipalidades Colombia](https://github.com/freddy120/MIAD_no_supervisado_project/blob/main/data/dengue_data_all_municipalities.csv)
-* [ Documento del trabajo realizado](https://github.com/freddy120/MIAD_no_supervisado_project/blob/main/data/dengue_data_all_municipalities.csv)
+* [ Documento del trabajo realizado](https://github.com/freddy120/MIAD_no_supervisado_project/blob/main/doc/Entrega%20semana%204.pdf)
 
 
 ## Exploración de los datos:
