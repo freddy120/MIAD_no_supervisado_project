@@ -91,8 +91,8 @@ Bhatt S, Gething PW, Brady OJ, et al. The global distribution and burden of deng
 
 ## Equipo
 * Maria Paula Salamanca Delgado (m.salamancad@uniandes.edu.co)
-* William Alexander Romero Bolívar (j.suarez1@uniandes.edu.co)
-* Jorge Oswaldo Suárez Rodríguez (w.romerob@uniandes.edu.co)
+* William Alexander Romero Bolívar (w.romerob@uniandes.edu.co)
+* Jorge Oswaldo Suárez Rodríguez (j.suarez1@uniandes.edu.co)
 * Freddy Rodrigo Mendoza Ticona (r.mendozat@uniandes.edu.co)
 
 Feel free to contact us for any doubt.\
