@@ -35,6 +35,33 @@ Lectura de los datos
 dengue_df = pd.read_csv("../data/dengue_data_all_municipalities.csv")
 ```
 
+* Casos de Dengue: 
+  * Casos de dengue semanales basado en la semana epidemiológica: desde la primera semana epidemiológica del año 2007 a la última semana epidemiológica del año 2019. ***Year/epiweek (Año/Semana epidemiológica)***
+  * También se puede encontrar casos anuales de dengue entre 2007 y 2019.
+* Datos Sociodemograficos y Socioeconómicos:
+  * Identificador único del Municipio. ***Municipality code***
+  * Nombre del Municipio. ***Municipality***
+  * Población para cada municipio entre el año 2007 y el 2019. ***Population2007, Population2008, …, Population2019***
+  * Porcentaje de población que pertenece a una cierta edad. ***Age0-4(%), Age5-14(%), Age15-29(%), Age>30(%)***
+  * Porcentaje de población afrocolombiana. ***AfrocolombianPopulation***
+  * Porcentaje de población india. ***IndianPopulation***
+  * Porcentaje de personas con discapacidades: esta variable describe el grupo de personas que tienen alguna limitación física, psicológica o mental. ***PeoplewithDisabilities***
+  * Porcentaje de personas que no pueden leer o escribir. ***Peoplewhocannotreadorwrite***
+  * Porcentaje de personas que tiene nivel de educación secundario/superior. ***Secondary/HigherEducation***
+  * Porcentaje de población empleada. ***Employedpopulation***
+  * Porcentaje de población desempleada. ***Unemployedpopulation***
+  * Porcentaje de personas que realizan trabajo doméstico. ***Peopledoinghousework***
+  * Porcentaje de personas jubiladas. ***Retiredpeople***
+  * Género o población en porcentaje de hombres y mujeres. ***Men(%), Women(%)***
+  * Hogares sin acceso a agua. ***Householdswithoutwateraccess***
+  * Hogares sin acceso a internet. ***Householdswithoutinternetaccess***
+  * Estratificación de las viviendas entre 1 y 6. ***Buildingstratification1(%), Buildingstratification2(%), …, Buildingstratification6(%)***
+  * Número de hospitales por Km2. ***NumberofhospitalsperKm2***
+  * Número de casas por Km2. ***NumberofhousesperKm2***
+* Temperatura y Precipitaciones:
+  * Temperatura mensual para cada municipio en Colombia. ***TEMPERATURE_jan_07, …, TEMPERATURE_dec_18***
+  * Precipitaciones mensuales para cada municipio en Colombia. ***PRECIPITATION_jan_07, …, PRECIPITATION_dec_18***
+
 ## Fuentes de datos
 * Sistema de Vigilancia en Salud Pública (SIVIGILA) del Insituto Nacional de Salud (INS). Por solicitud se puede acceder a las bases de datos de los casos semanales de dengue por semana epidemiológica desde el 2007. (http://portalsivigila.ins.gov.co/)
 * Departamento Administrativo Nacional de Estadística (DANE). Cuenta con bases de datos abiertos sobre la población desde el año 2007, con datos como la edad, género, raza, nivel educativo, ocupación, información sobre el hogar, información geográfica como viviendas y hospitales por Km2. (https://www.dane.gov.co/index.php/en/52-espanol/noticias/noticias/4325-bases-de-datos-anonimizadas-disponibles-en-la-web)
