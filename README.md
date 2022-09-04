@@ -16,6 +16,10 @@ Según  la  Organización  Panamericana  de  la  Salud,  los  casos  de  dengue 
 <p align="center"><img width=50% src="https://github.com/freddy120/MIAD_no_supervisado_project/blob/8fa383734dc556386f8c8eb5efa1b20c4098b277/images/mosquitodengue.jpg"></p>
 <br>
 
+## Archivos de interes:
+* [ Jupyter Notebook](https://github.com/freddy120/MIAD_no_supervisado_project/blob/main/notebook/Final_Project.ipynb)
+* [ Dataset Dengue en Municipalidades Colombia](https://github.com/freddy120/MIAD_no_supervisado_project/blob/main/data/dengue_data_all_municipalities.csv)
+* [ Documento del trabajo realizado](https://github.com/freddy120/MIAD_no_supervisado_project/blob/main/data/dengue_data_all_municipalities.csv)
 
 ## Fuentes de datos
 * Sistema de Vigilancia en Salud Pública (SIVIGILA) del Insituto Nacional de Salud (INS). Por solicitud se puede acceder a las bases de datos de los casos semanales de dengue por semana epidemiológica desde el 2007. (http://portalsivigila.ins.gov.co/)
