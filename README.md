@@ -1,4 +1,4 @@
-# Detección e identificación de "puntos calientes" de dengue en Colombia: Una aproximación desde el Aprendizaje no Supervisado 
+# Detección e identificación de clústeres por afectación de dengue en Colombia: una aproximación desde el Aprendizaje no Supervisado
 
 ![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)
 [![Build Status](https://travis-ci.org/anfederico/clairvoyant.svg?branch=master)](https://travis-ci.org/freddy120/MIAD_no_supervisado_project)
@@ -9,15 +9,14 @@
 
 ## Resumen
 
-En este repositorio, desarrollaremos un proyecto de aprendizaje no supervisado enfocado a reponder la siguiente pregunta:  
-¿En qué zonas de Colombia se deberían concentrar las campañas de concientización de prevención y control contra el dengue?  
-Según  la  Organización  Panamericana  de  la  Salud,  los  casos  de  dengue  en  las Américas han incrementado en las últimas cuatro décadas, pasando de 1,5 millones en  la  década  de  1980  a  16,2  millones  en  la  década  de  2010.  A  julio  de  2022,  en Colombia  se  han  presentado  34017  casos  dentro  de  los  cuales  el  52,4%  han presentado signos de alarma o graves. Responder esta pregunta permitiría prevenir y controlar los brotes de dengue al identificar características de alto riesgo. Al ser un problema de salud pública, es de especial interés para entidades públicas y entes gubernamentales, a quienes les permitiría dirigir recursos hacia la capacitación y concientización de la población para la prevención y control del dengue de manera eficiente.
+El dengue es una enfermedad viral transmitida por la picadura de mosquitos infectados que se caracteriza por producir fiebre, dolor corporal, pérdida del apetito y, en casos graves, sangrado de mucosas. La población más vulnerable a esta enfermedad son niños y adultos mayores, sin embargo, puede afectar a cualquier grupo demográfico. Según el Instituto Nacional de Salud (INS), a julio de 2022, en Colombia se han presentado 34.017 casos, dentro de los cuales el 52,4% presentaron signos de alarma o graves (1,2).
+Es posible prevenir y controlar su propagación concientizando a la población para evitar la proliferación de mosquitos que transmiten esta enfermedad. Así, a través de un análisis de clústeres se estratificaron 1.120 municipios de Colombia según el riesgo de incidencia de dengue de acuerdo con sus características demográficas (edad, población), socioeconómicas (desempleo, estratos), y climáticas (temperatura, precipitaciones), encontrando que existe un mayor riesgo de tasa de incidencia de dengue en municipios de clima cálido.
+Los resultados de este proyecto permitirían dirigir recursos hacia la capacitación y concientización de la población para la prevención y control del dengue eficientemente en aquellas zonas de mayor riesgo de incidencia del dengue.
 
-Este proyecto tiene como objetivo encontrar en qué zonas de Colombia se deberían concentrar las campañas de concientización de prevención y control contra el dengue haciendo uso de métodos de aprendizaje no supervisado. De esta manera, se aplicará un análisis de clústeres basado en densidad con el cual se podrán encontrar clústeres de forma arbitraria para lograr estratificar municipios según el riesgo de tasa de incidencia de dengue. 
-Los resultados de este proyecto pretenden ser de utilidad para entidades públicas y gubernamentales, al permitirles dirigir recursos hacia la capacitación y concientización de la población para la prevención y control del dengue eficientemente en aquellas zonas de mayor riesgo en la proliferación del dengue. 
+
 <br>
 <br>
-**Palabras clave**: Dengue, Epidemia, Aprendizaje no Supervisado, Clústeres.   
+**Palabras clave**: Dengue, Epidemia, Aprendizaje no Supervisado, Clústeres, K-Means, time series.   
 <br>
 <p align="center"><img width=50% src="https://github.com/freddy120/MIAD_no_supervisado_project/blob/8fa383734dc556386f8c8eb5efa1b20c4098b277/images/mosquitodengue.jpg"></p>
 <br>
@@ -64,8 +63,6 @@ dengue_df = pd.read_csv("../data/dengue_data_all_municipalities.csv")
 
 
 Casos en Medellin a lo largo del tiempo, desde 2007 a 2019
-
-
 ![](https://github.com/freddy120/MIAD_no_supervisado_project/blob/main/images/medellin_casos.png)
 
 
@@ -75,6 +72,10 @@ Casos en Medellin a lo largo del tiempo, desde 2007 a 2019
 * Datos climáticos. Existen varias fuentes con datos abiertos para su obtención. (https://earthengine.google.com/, https://www.worldclim.org/)
 * Comunidades de ciencia de datos. Dado el impacto social en la salud pública de la infección por dengue, existen varias organizaciones que han dispuesto datasets para competencias. (https://www.kaggle.com/datasets/davidrestrepo/dengue, https://www.kaggle.com/datasets/davidrestrepo/stratification-of-dengue-in-cauca-colombia)
 * DrivenData (https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/page/80/)
+
+## Resultados
+
+
 
 ## Referencias:
 * Instituto Nacional de Salud. Protocolo de Vigilancia de Dengue [Internet]. INS 2022. [citado el 20 de agosto de 2022. Disponible en: https://www.ins.gov.co/buscadoreventos/Lineamientos/Pro_Dengue.pdf 
