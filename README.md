@@ -12,8 +12,6 @@
 El dengue es una enfermedad viral transmitida por la picadura de mosquitos infectados que se caracteriza por producir fiebre, dolor corporal, pérdida del apetito y, en casos graves, sangrado de mucosas. La población más vulnerable a esta enfermedad son niños y adultos mayores, sin embargo, puede afectar a cualquier grupo demográfico. Según el Instituto Nacional de Salud (INS), a julio de 2022, en Colombia se han presentado 34.017 casos, dentro de los cuales el 52,4% presentaron signos de alarma o graves (1,2).
 Es posible prevenir y controlar su propagación concientizando a la población para evitar la proliferación de mosquitos que transmiten esta enfermedad. Así, a través de un análisis de clústeres se estratificaron 1.120 municipios de Colombia según el riesgo de incidencia de dengue de acuerdo con sus características demográficas (edad, población), socioeconómicas (desempleo, estratos), y climáticas (temperatura, precipitaciones), encontrando que existe un mayor riesgo de tasa de incidencia de dengue en municipios de clima cálido.
 Los resultados de este proyecto permitirían dirigir recursos hacia la capacitación y concientización de la población para la prevención y control del dengue eficientemente en aquellas zonas de mayor riesgo de incidencia del dengue.
-
-
 <br>
 <br>
 **Palabras clave**: Dengue, Epidemia, Aprendizaje no Supervisado, Clústeres, K-Means, time series.   
