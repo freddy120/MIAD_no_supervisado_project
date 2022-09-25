@@ -63,6 +63,24 @@ dengue_df = pd.read_csv("../data/dengue_data_all_municipalities.csv")
 Casos en Medellin a lo largo del tiempo, desde 2007 a 2019
 ![](https://github.com/freddy120/MIAD_no_supervisado_project/blob/main/images/medellin_casos.png)
 
+## Resultados
+Se aplico TimeSeriesKMeans con Dynamic Time Warping(DTW)
+```python
+indices = dengue_df.filter(regex="Cases\d+").values/dengue_df.filter(regex="Population\d+").values
+ts_df = pd.DataFrame(indices, columns=["indice" + str(i) for i in np.arange(2007, 2020)])
+ts_df = ts_df.fillna(0)
+
+data_ts = np.expand_dims(ts_df.values, axis=2)
+data_ts.shape
+
+model = TimeSeriesKMeans(n_clusters=3, metric="dtw", max_iter=100, n_jobs=-1, random_state=101)
+model.fit(data_ts)
+```
+
+se obtuvieron los siguientes municipios con alta tasa de casos de dengue por población durante el tiempo.
+![](https://github.com/freddy120/MIAD_no_supervisado_project/blob/main/images/tabla2.png)
+
+
 
 ## Fuentes de datos
 * Sistema de Vigilancia en Salud Pública (SIVIGILA) del Insituto Nacional de Salud (INS). Por solicitud se puede acceder a las bases de datos de los casos semanales de dengue por semana epidemiológica desde el 2007. (http://portalsivigila.ins.gov.co/)
@@ -70,9 +88,6 @@ Casos en Medellin a lo largo del tiempo, desde 2007 a 2019
 * Datos climáticos. Existen varias fuentes con datos abiertos para su obtención. (https://earthengine.google.com/, https://www.worldclim.org/)
 * Comunidades de ciencia de datos. Dado el impacto social en la salud pública de la infección por dengue, existen varias organizaciones que han dispuesto datasets para competencias. (https://www.kaggle.com/datasets/davidrestrepo/dengue, https://www.kaggle.com/datasets/davidrestrepo/stratification-of-dengue-in-cauca-colombia)
 * DrivenData (https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/page/80/)
-
-## Resultados
-
 
 
 ## Referencias:
