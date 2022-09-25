@@ -78,6 +78,8 @@ model.fit(data_ts)
 ```
 
 se obtuvieron los siguientes municipios con alta tasa de casos de dengue por población durante el tiempo.
+<br>
+<br>
 ![](https://github.com/freddy120/MIAD_no_supervisado_project/blob/main/images/tabla2.png)
 
 
